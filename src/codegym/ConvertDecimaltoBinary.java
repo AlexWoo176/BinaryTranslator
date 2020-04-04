@@ -1,3 +1,5 @@
+package codegym;
+
 import java.util.Scanner;
 import java.util.Stack;
 
@@ -9,11 +11,16 @@ public class ConvertDecimaltoBinary {
         System.out.print("Nhập số cần đổi sang hệ nhị phân: ");
         decimalNumber = scanner.nextInt();
 
-        while (decimalNumber != 0) {
-            int temp;
-            temp = decimalNumber % 2;
-            decimalNumber = decimalNumber/2;
-            binaryNumber.push(temp);
+        if (decimalNumber < 0) {
+            throw new IndexOutOfBoundsException();
+        }
+        else {
+            while (decimalNumber != 0) {
+                int remainder;
+                remainder = decimalNumber % 2;
+                decimalNumber = decimalNumber / 2;
+                binaryNumber.push(remainder);
+            }
         }
         System.out.print("Số sau đổi sang hệ nhị phân: ");
         while (!binaryNumber.isEmpty()) {

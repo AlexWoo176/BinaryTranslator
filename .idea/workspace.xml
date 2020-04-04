@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c89cf84e-4bb9-42e0-a7d5-7e9c830aa3b6" name="Default Changelist" comment="" />
+    <list default="true" id="c89cf84e-4bb9-42e0-a7d5-7e9c830aa3b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/alexwoo/ReversedBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/alexwoo/ReversedBinaryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTranslator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTranslator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BinaryTranslator/ConvertDecimaltoBinary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConvertDecimaltoBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codegym/ConvertDecimaltoBinary.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,24 +17,66 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1a4Er9NLyR2vkw5Tdgpv1yluqZV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ReversedBinaryTest">
     <configuration name="ConvertDecimaltoBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConvertDecimaltoBinary" />
+      <option name="MAIN_CLASS_NAME" value="codegym.ConvertDecimaltoBinary" />
+      <module name="BinaryTranslator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecimalToBinaryExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DecimalToBinaryExample" />
+      <module name="BinaryTranslator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="BinaryTranslator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReversedBinaryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alexwoo.ReversedBinaryTest" />
       <module name="BinaryTranslator" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -35,6 +84,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReversedBinaryTest" />
+        <item itemvalue="Application.DecimalToBinaryExample" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ConvertDecimaltoBinary" />
       </list>
     </recent_temporary>
@@ -46,7 +98,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585986661085</updated>
-      <workItem from="1585986663173" duration="3518000" />
+      <workItem from="1585986663173" duration="3698000" />
+      <workItem from="1585994571371" duration="6970000" />
     </task>
     <servers />
   </component>
@@ -54,21 +107,41 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1554" height="152" key="GridCell.Tab.0.bottom" timestamp="1585989555033">
+    <state x="605" y="27" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1585999442221">
       <screen x="0" y="27" width="1600" height="796" />
     </state>
-    <state width="1554" height="152" key="GridCell.Tab.0.bottom/0.27.1600.796@0.27.1600.796" timestamp="1585989555033" />
-    <state width="1554" height="152" key="GridCell.Tab.0.center" timestamp="1585989555033">
+    <state x="605" y="27" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1600.796@0.27.1600.796" timestamp="1585999442221" />
+    <state width="1554" height="285" key="GridCell.Tab.0.bottom" timestamp="1586025448445">
       <screen x="0" y="27" width="1600" height="796" />
     </state>
-    <state width="1554" height="152" key="GridCell.Tab.0.center/0.27.1600.796@0.27.1600.796" timestamp="1585989555033" />
-    <state width="1554" height="152" key="GridCell.Tab.0.left" timestamp="1585989555032">
+    <state width="1554" height="285" key="GridCell.Tab.0.bottom/0.27.1600.796@0.27.1600.796" timestamp="1586025448445" />
+    <state width="1554" height="285" key="GridCell.Tab.0.center" timestamp="1586025448442">
       <screen x="0" y="27" width="1600" height="796" />
     </state>
-    <state width="1554" height="152" key="GridCell.Tab.0.left/0.27.1600.796@0.27.1600.796" timestamp="1585989555032" />
-    <state width="1554" height="152" key="GridCell.Tab.0.right" timestamp="1585989555033">
+    <state width="1554" height="285" key="GridCell.Tab.0.center/0.27.1600.796@0.27.1600.796" timestamp="1586025448442" />
+    <state width="1554" height="285" key="GridCell.Tab.0.left" timestamp="1586025448441">
       <screen x="0" y="27" width="1600" height="796" />
     </state>
-    <state width="1554" height="152" key="GridCell.Tab.0.right/0.27.1600.796@0.27.1600.796" timestamp="1585989555033" />
+    <state width="1554" height="285" key="GridCell.Tab.0.left/0.27.1600.796@0.27.1600.796" timestamp="1586025448441" />
+    <state width="1554" height="285" key="GridCell.Tab.0.right" timestamp="1586025448443">
+      <screen x="0" y="27" width="1600" height="796" />
+    </state>
+    <state width="1554" height="285" key="GridCell.Tab.0.right/0.27.1600.796@0.27.1600.796" timestamp="1586025448443" />
+    <state x="456" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1586025313884">
+      <screen x="0" y="27" width="1600" height="796" />
+    </state>
+    <state x="456" y="251" key="com.intellij.ide.util.TipDialog/0.27.1600.796@0.27.1600.796" timestamp="1586025313884" />
+    <state x="467" y="320" width="646" height="208" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585994598147">
+      <screen x="0" y="27" width="1600" height="796" />
+    </state>
+    <state x="467" y="320" width="646" height="208" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.27.1600.796@0.27.1600.796" timestamp="1585994598147" />
+    <state x="814" y="147" width="458" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585994615411">
+      <screen x="0" y="27" width="1600" height="796" />
+    </state>
+    <state x="814" y="147" width="458" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.27.1600.796@0.27.1600.796" timestamp="1585994615411" />
+    <state x="109" y="27" width="1372" height="796" key="new project wizard" timestamp="1585990706032">
+      <screen x="0" y="27" width="1600" height="796" />
+    </state>
+    <state x="109" y="27" width="1372" height="796" key="new project wizard/0.27.1600.796@0.27.1600.796" timestamp="1585990706032" />
   </component>
 </project>
